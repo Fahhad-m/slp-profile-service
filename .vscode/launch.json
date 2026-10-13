@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Sync profile h1",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/RabotSlp/bin/Debug/net8.0/RabotSlp.dll",
+      "args": ["sync", "--profile", "h1"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Apply 3500 kWh to my household",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/RabotSlp/bin/Debug/net8.0/RabotSlp.dll",
+      "args": ["apply", "--annual-kwh", "3500", "--customer", "my household", "--profile", "h1"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}

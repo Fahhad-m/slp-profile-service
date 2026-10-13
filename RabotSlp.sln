@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabotSlp", "src\RabotSlp\RabotSlp.csproj", "{6F1C7C0A-2B7D-4B58-9D2E-3A1F5E8B0A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabotSlp.Tests", "tests\RabotSlp.Tests\RabotSlp.Tests.csproj", "{9B3E2D44-5C61-4E0F-8A57-7D2C4F9E1B22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F1C7C0A-2B7D-4B58-9D2E-3A1F5E8B0A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1C7C0A-2B7D-4B58-9D2E-3A1F5E8B0A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1C7C0A-2B7D-4B58-9D2E-3A1F5E8B0A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1C7C0A-2B7D-4B58-9D2E-3A1F5E8B0A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3E2D44-5C61-4E0F-8A57-7D2C4F9E1B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3E2D44-5C61-4E0F-8A57-7D2C4F9E1B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3E2D44-5C61-4E0F-8A57-7D2C4F9E1B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3E2D44-5C61-4E0F-8A57-7D2C4F9E1B22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
